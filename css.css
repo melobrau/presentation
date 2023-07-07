@@ -1,0 +1,23 @@
+*{
+    background-color: black;
+}
+.container{
+    border-color: rgb(252, 245, 245);
+}
+.msg{ 
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: azure;
+    text-shadow: 0 0 20px hsl(204, 100%, 80%);
+    font-size: 2em;
+
+}
+span{
+    animation: blinker 1000ms linear infinite;
+}
+
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
