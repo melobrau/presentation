@@ -8,6 +8,14 @@
     padding-left: 50%;
     animation:
 }
+.fade-in {
+    padding-left: 50%;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+  }
 .msg{ 
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
@@ -20,19 +28,15 @@ span{
     animation: blinker 1000ms linear infinite;
 }
 
+
+/*KEYFRAMES*/
+
 @keyframes blinker{
     50%{
         opacity: 0;
     }
 }
-.fade-in {
-    padding-left: 50%;
-    animation: fadeIn ease 3s;
-    -webkit-animation: fadeIn ease 3s;
-    -moz-animation: fadeIn ease 3s;
-    -o-animation: fadeIn ease 3s;
-    -ms-animation: fadeIn ease 3s;
-  }
+
   @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}

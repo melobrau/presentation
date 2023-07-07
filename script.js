@@ -1,4 +1,4 @@
-var msgArray = ["*/ negocio que escreve coisa"];
+var msgArray = ["/* negocio que escreve coisa*/"];
 var textPosition = 0;
 var speed = 85;
 
