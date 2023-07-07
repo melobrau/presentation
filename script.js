@@ -1,6 +1,6 @@
 var msgArray = ["*/ negocio que escreve coisa"];
 var textPosition = 0;
-var speed = 80;
+var speed = 85;
 
 typewriter = () => {
     document.querySelector("#msg").
