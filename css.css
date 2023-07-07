@@ -17,6 +17,7 @@
     -ms-animation: fadeIn ease 3s;
   }
 .msg{ 
+    padding-top: 20%;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: azure;
