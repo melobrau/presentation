@@ -4,6 +4,9 @@
 .container{
     border-color: rgb(252, 245, 245);
 }
+.logo{
+    padding-left: 50%;
+}
 .msg{ 
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
