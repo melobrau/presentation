@@ -1,0 +1,66 @@
+*{
+    background-color: rgb(211, 196, 196);
+}
+
+.logo{
+    padding-left: 50%;
+    animation:
+}
+.fade-in {
+    padding-left: 50%;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+  }
+
+  .calculadora{
+    justify-content: center;
+    border: 100em;
+    border-color: rgb(245, 135, 0);
+    padding-left: 49%;
+    padding-top: 20%;
+    
+  }
+  .botao{
+    background-color: bisque;
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+  }
+
+
+
+  /*KEYFRAMES*/
+
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }

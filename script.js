@@ -11,3 +11,4 @@ typewriter = () => {
 }
 
 window.addEventListener("load", typewriter);
+
