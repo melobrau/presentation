@@ -1,4 +1,4 @@
-var msgArray = ["/* negocio que escreve coisa*/"];
+var msgArray = ["/* negócio que escreve coisa, clica ai pra abrir o outro negócio */"];
 var textPosition = 0;
 var speed = 85;
 
@@ -11,4 +11,12 @@ typewriter = () => {
 }
 
 window.addEventListener("load", typewriter);
+
+document.addEventListener('click', function(){
+    window.location.assign('calculadora/calculadora.html')
+})
+
+document.addEventListener('keydown', function(e){
+    window.location.assign('calculadora/calculadora.html')
+})
 
