@@ -1,8 +1,9 @@
-*{
+*{  
     background-color: black;
     border: 20px;
 }
 .container{
+  
     border-color: rgb(252, 245, 245);
 }
 .logo{

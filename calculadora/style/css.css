@@ -1,4 +1,4 @@
-*{
+*{  font-family: 'Courier New', Courier, monospace;
     background-color: rgb(211, 196, 196);
 }
 
@@ -16,10 +16,11 @@
   }
 
   .calculadora{
+    font-family: 'Courier New', Courier, monospace;
     justify-content: center;
     border: 100em;
     border-color: rgb(245, 135, 0);
-    padding-left: 49%;
+    padding-left: 50%;
     padding-top: 20%;
     
   }
