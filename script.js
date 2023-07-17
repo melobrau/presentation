@@ -1,4 +1,4 @@
-var msgArray = ["/* negócio que escreve coisa, clica ai pra abrir o outro negócio */"];
+var msgArray = ["/* negócio que escreve coisa, clica ai ou aperta qualquer botão pra abrir o outro negócio */"];
 var textPosition = 0;
 var speed = 85;
 
